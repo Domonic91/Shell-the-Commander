@@ -25,4 +25,12 @@ for ((i = 0; i < 5; i++)); do
     echo "C-style iteration $i"
 done
 
+
+# For operation with files
+file="./test.txt"
+
+for line in $(cat "$file"); do
+    echo "Line: $line"
+done
+
 # This script ends here
