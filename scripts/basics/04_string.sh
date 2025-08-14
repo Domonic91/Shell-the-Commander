@@ -44,3 +44,4 @@ lowercase_strig=${my_string,,}
 # Print the lowercase string
 echo "Lowercase string: $lowercase_strig"
 
+# This script ends here

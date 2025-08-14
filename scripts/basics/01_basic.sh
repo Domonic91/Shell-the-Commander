@@ -11,3 +11,4 @@ This is the second line of the multi-line comment
 COMMENT
 echo "This is a multi-line comment"
 
+# This script ends here

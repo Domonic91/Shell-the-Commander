@@ -42,3 +42,4 @@ readonly my_full_name="${my_name} Kishore Behera"
 # Print the concatenated variable
 echo "My full name is $my_full_name"
 
+# This script ends here

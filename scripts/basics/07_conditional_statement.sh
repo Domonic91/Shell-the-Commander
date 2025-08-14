@@ -75,3 +75,4 @@ else
     echo "The file '$filename' does not exist (using [[ ]])."
 fi
 
+# This script ends here

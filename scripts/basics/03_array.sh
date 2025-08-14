@@ -104,3 +104,5 @@ echo "Keys: ${!my_dict[@]}"
 
 # Print as as information
 echo "My name is ${my_dict[name]}, I am ${my_dict[age]} years old, living in ${my_dict[city]}, ${my_dict[country]}. I work as a ${my_dict[occupation]} and my hobby is ${my_dict[hobby]}. I speak ${my_dict[language]} and you can contact me at ${my_dict[email]} or call me at ${my_dict[phone]}. My address is ${my_dict[address]} and you can visit my website at ${my_dict[website]}."
+
+# This script ends here

@@ -24,3 +24,5 @@ else
     echo "Thank you for participating, $user_name. Goodbye!"
     exit 0
 fi
+
+# This script ends here

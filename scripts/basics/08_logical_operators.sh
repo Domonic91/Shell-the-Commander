@@ -97,4 +97,4 @@ else
     echo "Network is either not reachable or Google is not accessible."
 fi
 
-# End of script
+# This script ends here
