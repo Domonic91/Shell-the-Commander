@@ -96,6 +96,14 @@ echo "The number of arguments passed to the script is: $#"
 # Log file
 # logger "This is log from ${0}"
 
+# set -x
+# This will enable debugging mode, printing each command before execution.
+# set -x
+
+# set -e
+# This will exit the script if any command fails.
+# set -e
+
 # /DEV/NULL
 echo "Redirecting output to /dev/null"
 echo "This message will not be displayed." > /dev/null
