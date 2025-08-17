@@ -23,3 +23,14 @@ for j in {1..10}; do
 done
 
 # Sleep
+for k in {1..5}; do
+    echo "Sleeping for $k seconds..."
+    sleep $k
+done
+
+# Exit
+echo "Exiting the script now."
+exit 0
+echo "This line will not be executed."
+# This line will not be executed because the script has already exited.
+# End of script
