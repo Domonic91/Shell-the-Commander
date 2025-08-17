@@ -23,10 +23,10 @@ for j in {1..10}; do
 done
 
 # Sleep
-# for k in {1..5}; do
-#     echo "Sleeping for $k seconds..."
-#     sleep $k
-# done
+for k in {1..5}; do
+    echo "Sleeping for $k seconds..."
+    sleep $k
+done
 
 # Exit
 echo "Exiting the script now."
