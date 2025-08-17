@@ -6,10 +6,10 @@ read -p "Enter the site to check connectivity: " site
 
 # Detect OS and choose correct ping command
 if [[ "$OSTYPE" == "linux-gnu"* || "$OSTYPE" == "darwin"* ]]; then
-    ping -c 1 "$site"
+    ping -c 1 "$site" > /dev/null 2>&1
     status=$?
 elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
-    ping -n 1 "$site"
+    ping -n 1 "$site" > /dev/null 2>&1
     status=$?
 else
     echo "Unsupported OS."
@@ -25,3 +25,4 @@ fi
 
 exit 0
 # End of script
+#"2>&1"Its job is: make sure errors don’t show up separately — they follow the same path as normal messages.

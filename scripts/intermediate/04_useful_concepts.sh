@@ -93,6 +93,11 @@ echo "The current script arguments are: $@"
 
 echo "The number of arguments passed to the script is: $#"
 
+# /DEV/NULL
+echo "Redirecting output to /dev/null"
+echo "This message will not be displayed." > /dev/null
+# /dev/null is used to discard output, it is a special file that discards all data written to it.
+
 echo "The current date is: $(date +%d-%m-%y)" #cmd
 echo "The current time is: $(date +%H:%M:%S)" #cmd
 echo "The current date and time is: $(date)" #cmd
