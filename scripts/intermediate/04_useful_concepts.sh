@@ -85,13 +85,16 @@ echo "The current process ID is: $$"
 
 echo "The last command exit status is: $?"
 
-echo "The current script name is: $0"
+echo "The current script name is: ${0}"
 
 echo "The current script arguments are: $*"
 
 echo "The current script arguments are: $@"
 
 echo "The number of arguments passed to the script is: $#"
+
+# Log file
+# logger "This is log from ${0}"
 
 # /DEV/NULL
 echo "Redirecting output to /dev/null"
