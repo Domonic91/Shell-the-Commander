@@ -6,9 +6,6 @@
 
 # For scheduling only one time, use AT
 
-
-choice=$(zenity --list --title="Menu" --column="Option" "Show Date" "List Files" "Exit")
-case $choice in
-  "Show Date") date | zenity --info ;;
-  "List Files") ls | zenity --text-info ;;
-esac
+# Example: Schedule a script to run at a specific time
+echo "Scheduling script to run at 2:30 PM today"
+echo "bash scripts\advanced\automate_script.sh" | at 9:48 AM
